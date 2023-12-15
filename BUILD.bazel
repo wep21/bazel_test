@@ -2,5 +2,6 @@ cc_binary(
     name = "bazel_test",
     srcs = ["src/main.cpp"],
     includes = [],
+    deps = ["@eigen//:eigen"],
     visibility = ["//visibility:public"],
 )
